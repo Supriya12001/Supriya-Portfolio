@@ -6,7 +6,11 @@ import yourPhoto from "../asstes/MY-PHOTO.jpg";
 export default function HeroSection() {
   const fadeInUp = {
     hidden: { opacity: 0, y: 30 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.6, ease: "easeOut" },
+    },
   };
 
   return (
@@ -47,7 +51,7 @@ export default function HeroSection() {
             className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-2"
             variants={fadeInUp}
           >
-            DHILIPRAJ
+            SUPRIYA MAANAVALAN
           </motion.h1>
 
           <motion.h3
@@ -101,7 +105,7 @@ export default function HeroSection() {
               <FaEnvelope />
             </a>
             <a
-              href="https://www.linkedin.com/in/dhilipraj-b-07b44b27b"
+              href="www.linkedin.com/in/supriya1209"
               target="_blank"
               rel="noreferrer"
               className="text-yellow-400 hover:text-yellow-500 transition text-xl sm:text-2xl"
@@ -110,7 +114,7 @@ export default function HeroSection() {
               <FaLinkedinIn />
             </a>
             <a
-              href="https://github.com/dhilipraj12"
+              href="https://github.com/supriya12001"
               target="_blank"
               rel="noreferrer"
               className="text-yellow-400 hover:text-yellow-500 transition text-xl sm:text-2xl"

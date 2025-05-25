@@ -23,7 +23,7 @@ const fadeInUp = {
 export default function ProjectsSection() {
   return (
     <motion.section
-      id="projects"
+      id="skills"
       className="py-20 px-4 backdrop-blur-md bg-white/10 border border-yellow-400/20 rounded-xl shadow-lg text-white"
       initial="hidden"
       whileInView="visible"

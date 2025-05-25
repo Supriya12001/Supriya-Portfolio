@@ -53,7 +53,7 @@ export default function App() {
               custom={0.2}
               variants={fadeInUp}
             >
-              I’m <span className="font-bold text-yellow-400">Dhilipraj</span>,
+              I’m <span className="font-bold text-yellow-400">Supriya</span>,
               a passionate Front-End Developer specializing in creating dynamic,
               responsive web applications. With a strong foundation in{" "}
               <strong>React.js</strong> and <strong>Tailwind CSS</strong>, I
@@ -259,7 +259,7 @@ export default function App() {
             </motion.section>
 
           <footer className="text-center text-sm text-gray-400 mt-10">
-            © 2025 Dhilipraj
+            © 2025 Supriya
           </footer>
         </div>
       </div>

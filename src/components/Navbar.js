@@ -34,7 +34,7 @@ export default function Navbar() {
           transition={{ duration: 0.6 }}
           whileHover={{ scale: 1.1, color: "#FBBF24" }}
         >
-          DHILIP <span className="text-yellow-400">RAJ</span>
+          SUPRIYA <span className="text-yellow-400">M</span>
         </motion.h1>
 
         {/* Desktop Menu */}
@@ -69,7 +69,7 @@ export default function Navbar() {
                   className="absolute top-8 right-0 mt-2 bg-gray-800 border border-gray-600 rounded-md p-2 shadow-lg z-50 w-48"
                 >
                   <a
-                    href="/Dhilip_Raj_Resume.pdf"
+                    href="/Supriya-Resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="block px-4 py-2 text-sm hover:bg-gray-700 rounded"
@@ -77,7 +77,7 @@ export default function Navbar() {
                     📄 View Resume
                   </a>
                   <a
-                    href="/Dhilip_Raj_Resume.pdf"
+                    href="/Supriya-Resume.pdf"
                     download
                     className="block px-4 py-2 text-sm hover:bg-gray-700 rounded"
                   >
