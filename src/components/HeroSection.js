@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaEnvelope, FaLinkedinIn, FaGithub } from "react-icons/fa";
-import yourPhoto from "../asstes/MY-PHOTO.jpg";
 
 export default function HeroSection() {
   const fadeInUp = {
@@ -79,11 +78,7 @@ export default function HeroSection() {
         >
           {/* Profile Photo */}
           <div className="relative w-60 h-60 sm:w-72 sm:h-72 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-yellow-400 shadow-lg">
-            <img
-              src={yourPhoto}
-              alt="DHILIPRAJ"
-              className="w-full h-full object-cover"
-            />
+            
             <div className="absolute -inset-2 border-2 border-yellow-300 rounded-full animate-spin-slow opacity-30" />
           </div>
 
@@ -98,14 +93,14 @@ export default function HeroSection() {
             }}
           >
             <a
-              href="mailto:bdhilipraj@gmail.com"
+              href="https://supriyamanavalan2001@gmail.com"
               className="text-yellow-400 hover:text-yellow-500 transition text-xl sm:text-2xl"
               title="Email"
             >
               <FaEnvelope />
             </a>
             <a
-              href="www.linkedin.com/in/supriya1209"
+              href="https://www.linkedin.com/in/supriya1209"
               target="_blank"
               rel="noreferrer"
               className="text-yellow-400 hover:text-yellow-500 transition text-xl sm:text-2xl"

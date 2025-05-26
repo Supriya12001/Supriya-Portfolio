@@ -56,7 +56,7 @@ export default function App() {
               I’m <span className="font-bold text-yellow-400">Supriya</span>,
               a passionate Front-End Developer specializing in creating dynamic,
               responsive web applications. With a strong foundation in{" "}
-              <strong>React.js</strong> and <strong>Tailwind CSS</strong>, I
+              <strong>React.js</strong>, I
               bring ideas to life with clean code and delightful user
               experiences.
             </motion.p>
@@ -71,10 +71,10 @@ export default function App() {
                   🎓 Education
                 </h3>
                 <p className="text-gray-200">
-                  Bachelor’s in Computer Science
+                  Master's in Computer Science - IT
                   <br />
                   <span className="text-sm text-gray-400">
-                    Crescent University, 2020 - 2023
+                    SRM UNIVERSITY, 2023 - 2025
                   </span>
                 </p>
               </div>
@@ -84,7 +84,7 @@ export default function App() {
                   💼 Experience
                 </h3>
                 <p className="text-gray-200">
-                  Front-End Intern at Wraptron
+                FULL STACK DEVELOPER INTERN - VCODEZ
                   <br />
                   <span className="text-sm text-gray-400">
                     Built internal dashboards and contributed to UI designs.
@@ -98,7 +98,7 @@ export default function App() {
                 🚀 Skills
               </h3>
               <ul className="list-disc list-inside text-gray-200">
-                <li>React.js, Tailwind CSS, JavaScript (ES6+)</li>
+                <li>React.js, HTML/CSS, JavaScript (ES6+)</li>
                 <li>Responsive Design & Mobile-First Development</li>
                 <li>Version Control with Git & GitHub</li>
                 <li>Basic Backend Integration & REST APIs</li>
